@@ -111,9 +111,6 @@ public class Socket extends Emitter {
             add(On.on(io, Manager.EVENT_OPEN, new Listener() {
                 @Override
                 public void call(Object... args) {
-
-                    System.out.println("omri omri omri omri omri omri omri omri omri omri omri omri omri omri");
-
                     Socket.this.onopen();
                 }
             }));
